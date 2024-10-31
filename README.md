@@ -4,9 +4,13 @@ No BS guide for creating BadUSB devices using:
 - Raspberry Pi Pico (RP2040)
 - Arduino Micro (ATmega32U4)
 
-## Raspberry Pi Pico Implementation
+## Raspberry Pi Pico Guide
 
-Product Reference: [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
+[Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
+
+<p align="center">
+<kbd><img src="https://github.com/user-attachments/assets/9820879a-ce2f-4573-b6ec-7dcce871df26" width="400"></kbd>
+</p>
 
 ### Setup Instructions
 
@@ -45,9 +49,9 @@ The Pico can store multiple payloads. The payload executed depends on which GPIO
 - Pin 14 `GP10` -> `payload3.dd`
 - Pin 15 `GP11` -> `payload4.dd`
 
-## Arduino Micro Implementation
+## Arduino Micro Guide
 
-Product Reference: [Arduino Pro Micro](https://store.arduino.cc/products/arduino-micro)
+[Arduino Pro Micro](https://store.arduino.cc/products/arduino-micro)
 
 ### Setup Instructions
 
