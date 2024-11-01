@@ -71,8 +71,7 @@ The Pico can store multiple payloads. The payload executed depends on which GPIO
 
 ## TODO
 
-* Add svgs
-* Add micro operation modes
 * Add video/gif demos
 * Add more payloads
-* Add more devices (Pico2, PicoW, Nano ESP32, etc.)
+* Add PicoW
+
