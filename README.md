@@ -74,4 +74,8 @@ The Pico can store multiple payloads. The payload executed depends on which GPIO
 * Add video/gif demos
 * Add more payloads
 * Add PicoW
+* Add Pico2
 
+<p align="center">
+<kbd><img src="https://github.com/user-attachments/assets/9820879a-ce2f-4573-b6ec-7dcce871df26" width="400"></kbd>
+</p>
