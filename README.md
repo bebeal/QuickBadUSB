@@ -76,8 +76,8 @@ The Pico can store multiple payloads. The payload executed depends on which GPIO
 ## TODO
 
 * Add video/gif demos
-* Add more payloads
-* Add PicoW
+* Add more payloads, add Linux variants
+* Update Arduino sketches to fullscreen and increase font size
 * Add Pico2
 
 <p align="center">
