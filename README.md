@@ -4,7 +4,7 @@ No BS guide for creating BadUSB devices using:
 - Raspberry Pi Pico (RP2040)
 - Arduino Micro (ATmega32U4)
 
-## Raspberry Pi Pico Guide
+## Raspberry Pi Pico/Pico-W Guide
 
 [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
 
@@ -23,13 +23,17 @@ No BS guide for creating BadUSB devices using:
 
 3. Install required libraries:
    - Copy all files from `pico/*` in this repository to `CIRCUITPY`
-   - This includes HID libraries and a DuckyScript interpreter (enables running standard DuckyScript payloads on the Pico)<br/>
+   - This includes HID libraries and a DuckyScript interpreter<br/>
    <sub>source: [dbisu/pico-ducky](https://github.com/dbisu/pico-ducky)</sub>
+
+   **3.1. For Pico-W only:**
+   - Copy `pico-w/*` to `CIRCUITPY`
+   - This is just `secret.py` which contains the WiFi SSID and password
 
 4. Add payload:
    - Create a file named `payload.dd` containing your DuckyScript and copy it to the root of `CIRCUITPY`
-   - **Warning**: If not in setup mode the payload will run immediately
-   - Sample non-malicious payloads are available in `payloads/ducky/` compatible with Windows, MacOS, and Linux
+   - **Warning**: If not in setup mode, the payload will run immediately
+   - Sample payloads are available in `payloads/ducky/`, compatible with Windows and MacOS
 
 ### Operating Modes
 
@@ -67,7 +71,7 @@ The Pico can store multiple payloads. The payload executed depends on which GPIO
    - Convert DuckyScript to Arduino code using [Duckuino](https://d4n5h.github.io/Duckuino/)
    - Copy the generated code to a new sketch in the IDE
    - Select `Sketch -> Upload` to flash the device
-   - Sample non-malicious payloads are available in `payloads/arduino/` compatible with Windows, MacOS, and Linux
+   - Sample payloads are available in `payloads/arduino/`, compatible with Windows and MacOS
 
 ## TODO
 
