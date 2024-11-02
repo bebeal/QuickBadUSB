@@ -9,7 +9,7 @@ No BS guide for creating BadUSB devices using:
 [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
 
 <p align="center">
-<kbd><img src="https://github.com/user-attachments/assets/9820879a-ce2f-4573-b6ec-7dcce871df26" width="400"></kbd>
+<kbd><img src="https://github.com/user-attachments/assets/d8676971-b04b-4186-8236-ceb9d1dc2ff9" width="400"></kbd>
 </p>
 
 ### Setup Instructions
@@ -39,7 +39,7 @@ No BS guide for creating BadUSB devices using:
 
 **Stealth Mode**
 - Prevents the Pico from appearing as a USB storage device
-- Bridge Pin 20 (`GPIO15`) to Pin 18 (`GND`)
+- Bridge Pin 20 (`GP15`) to Pin 18 (`GND`)
 
 ### Multiple Payload Support
 
